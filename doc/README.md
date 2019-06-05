@@ -11,6 +11,8 @@ Forgae consists of 5 separated packages. There are two main packages.
 - forgae-logger - Using this package will give you the ability to print your historical deployments on the console.
 - forgae-config - This package is used as helper where all the necessary configuration files are included.
 - forgae-utils - Similarly to config this package helps with functions like **ReadFile**  & **keyToHex**, etc.
+
+
 ### Installing
 
 ```text
@@ -20,10 +22,3 @@ npm i -g forgae
 ### Documentation
 
 [Documentation](developer-documentation/getting-started.md)
-
-### Development
-
-If you would like to furter contribute or enhance your project with the CLI, you would need to run the following command once you are in the root folder:
-```
-npm run link
-```
